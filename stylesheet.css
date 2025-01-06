@@ -6,6 +6,8 @@ html,body{
 body{
     font-family: Roboto, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -22,7 +24,7 @@ ul{
     gap: 20px;
 }
 
-a{
+a, .texto-botón p{
     color: #e5e7eb;
     text-decoration: none;
     font-size: 18px;
@@ -30,13 +32,57 @@ a{
 
 .logo-links{
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
 }
 
 .hero{
     display: flex;
+    /* border: 3px rgb(197, 32, 32) solid; */
+    padding: 50px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+   
+ button {
+    background: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+}
+.texto-botón{
+    border: 3px rgb(32, 197, 32) solid;
+    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin: 0;
+    justify-content: center;
+    gap: 30px;
+    width: 30%;
+    height: 300px;
+}
+.texto-botón h1{
+    font-size: 48px;
+    color:#f9faf8;
+    font-weight: 900;
+   display: flex;
+   margin: 0;
+}
+ .texto-botón p { 
+     margin: 0;
+
+ }
+.image{
+    /* border: 3px rgb(197, 32, 183) solid; */
+    width: 600px ;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.image img{
+    width: 100%;
 }
