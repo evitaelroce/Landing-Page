@@ -6,17 +6,26 @@ html,body{
 body{
     font-family: Roboto, sans-serif;
     margin: 0;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 header{
+    /* border: #f6e938 solid 2px; */
     background:#1f2937;
     color: #F9FAF8;
     margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 50px 50px;
+
 }
+
 header h3{
     font-size: 24px;
+    /* border: 3px rgb(197, 32, 32) solid; */
+    display: flex;
+    padding: 10px;
 }
 
 ul{
@@ -33,10 +42,12 @@ a, .texto-botón p {
 
 .logo-links{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 0 50px 50px 50px;
-    /* border: 3px rgb(197, 194, 32) solid; */
+    padding: 0 30px 30px 30px;
+    /* border: 3px rgb(32, 197, 46) solid; */
+    width: 100%;
+  gap: 400px;
 }
 
 .hero{
@@ -58,7 +69,7 @@ a, .texto-botón p {
     width: 120px;
 }
 .texto-botón{
-    /* border: 3px rgb(32, 197, 32) solid; */
+    /* border: 3px rgb(197, 32, 95) solid; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,8 +82,8 @@ a, .texto-botón p {
     font-size: 48px;
     color:#f9faf8;
     font-weight: 900;
-   display: flex;
-   margin: 0;
+    display: flex;
+    margin: 0;
 }
  .texto-botón p { 
      margin-bottom: 10px;
@@ -81,8 +92,8 @@ a, .texto-botón p {
  }
 .image{
     /* border: 3px rgb(197, 32, 183) solid;  */
-    width: 600px ;
-    height: 300px;
+    width: 400px ;
+    height: 233px;
     display: flex;
     justify-content: center;
 }
@@ -126,7 +137,8 @@ main h1{
 .main img{
     width: 200px;
     height: 200px;
-    border: 4px #3882f6 solid;
+    border: 2px #3882f6 solid;
+    box-shadow: 8px 8px 4px #7989a0;
     border-radius: 3%;
 }
 article{
@@ -170,6 +182,12 @@ cite{
     color: #f9faf8;
     width: 50%;
     margin-bottom: 0;
+    border-radius: 8px;
+}
+
+.call h3,
+.call p{
+    margin: 0;
 }
 
 .lol{
