@@ -18,6 +18,7 @@ header{
     display: flex;
     flex-direction: column;
     padding: 0 50px 50px 50px;
+    flex-wrap: wrap;
 
 }
 
@@ -25,7 +26,6 @@ header h3{
     font-size: 24px;
     /* border: 3px rgb(197, 32, 32) solid; */
     display: flex;
-    padding: 10px;
 }
 
 ul{
@@ -46,13 +46,14 @@ a, .texto-botón p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 0 30px 30px 30px;
+    padding: 0 30px ;
     /* border: 3px rgb(32, 197, 46) solid; */
     gap: 400px;
 }
 
 .hero{
     display: flex;
+    flex-wrap: wrap;
     /* border: 3px rgb(197, 32, 32) solid; */
     padding: 50px;
     flex: 1;
