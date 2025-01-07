@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 html,body{
     height: 100%;
 }
@@ -54,15 +54,16 @@ a, .texto-botón p {
     color: #e5e7eb;
     border: none;
     border-radius: 8px;
-    padding: 10px;
-    width: 150px;
+    padding: 10px 20px ;
+    width: 120px;
 }
 .texto-botón{
     /* border: 3px rgb(32, 197, 32) solid; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    font-style: italic;
+    font-weight: 300;
     width: 30%;
     /* height: 300px; */
 }
@@ -74,11 +75,12 @@ a, .texto-botón p {
    margin: 0;
 }
  .texto-botón p { 
-     margin: 0;
+     margin-bottom: 10px;
+      margin-top: 0; 
 
  }
 .image{
-    /* border: 3px rgb(197, 32, 183) solid; */
+    /* border: 3px rgb(197, 32, 183) solid;  */
     width: 600px ;
     height: 300px;
     display: flex;
@@ -98,6 +100,7 @@ main h1{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    marginb: 0;
 }
 
 .main{
@@ -129,13 +132,20 @@ main h1{
 article{
     /* border: 3px rgb(167, 197, 32) solid; */
     font-size: 36px;
-    font-style: light italic;
     color:#1f2937;
     background: #e5e7eb ;
     padding: 50px;
     display: flex;
     justify-content: center;
-   
+    align-items: center;
+}
+
+cite{
+    font-weight: 300;
+}
+
+.article p{
+    font-size: 30px;
 }
 
 .article{
@@ -159,6 +169,7 @@ article{
     flex-direction: column;
     color: #f9faf8;
     width: 50%;
+    margin-bottom: 0;
 }
 
 .lol{
